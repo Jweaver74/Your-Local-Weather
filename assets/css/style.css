@@ -1,0 +1,13 @@
+.search-column{
+    background-color: azure;
+}
+
+.list-group{
+    line-height: 1;
+    border: 2px solid black
+}
+
+.card-body{
+    flex:auto;
+}
+

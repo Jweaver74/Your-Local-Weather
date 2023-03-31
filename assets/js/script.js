@@ -21,7 +21,7 @@ var formSubmitHandler = function(event) {
     saveSearch();
     pastSearch(city);
 }
-
+//console.log("hello")
 var saveSearch = function() {
     localStorage.setItem("cities", JSON.stringify(cities));
 };
@@ -50,3 +50,27 @@ var displayWeather = function(weather, searchCity) {
     var weatherIcon = document.createElement("img");
     weatherIcon.setAttribute("src", "https://openweathermap.org/img/wn/" + weather.weather[0].icon + ".png");
     citySearchInputEl.appendChild(weatherIcon);
+
+    //temperature
+    var temperatureEl = document.createElement("span");
+    temperatureEl.textContent = "Temperature: " + weather.main.temp + " °F";
+    temperatureEl.classList = "list-group-item"
+
+    //humidity
+    var humidityEl = document.createElement("span");
+    humidityEl.textContent = "Humidity: " + weather.main.humidity + "%";
+    humidityEl.classList = "list-group-item"
+
+    //wind speed
+    var windSpeedEl = document.createElement("span");
+    windSpeedEl.textContent = "Wind Speed: " + weather.wind.speed + " MPH";
+    windSpeedEl.classList = "list-group-item"
+
+    weatherContainerEl.appendChild(temperatureEl);
+
+    weatherContainerEl.appendChild(humidityEl);
+
+    weatherContainerEl.appendChild(windSpeedEl);
+
+} 
+//console.log("hello")
