@@ -25,6 +25,9 @@ and very challenging for me to complete. Using Copilot to insert some the code t
 
 ## Credits
 W3 schools  https://www.w3schools.com/w3css/w3css_cards.asp
+
 W3 schools  https://www.w3schools.com/w3css/w3css_cards.asp
+
 openweather https://openweathermap.org/api
+
 VScode Copilot https://docs.github.com/en/copilot/getting-started-with-github-copilot
