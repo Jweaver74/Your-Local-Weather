@@ -1,10 +1,10 @@
 # Your Local Weather
 
 # Screen shot
-![alt text](image Link is Assets)
+![deployed site](./assets/images/Screenshot%202023-04-04%20100817.png)
 
 # Link to live site
-[Name](Link)
+[Your Local Weather](git https://jweaver74.github.io/Your-Local-Weather/)
 
 ## Why I made this site
 I put together this site to show what we have learned up to this point in the bootcamp. Showing off HTML, CSS, JS along with many other 
